@@ -220,11 +220,53 @@ body{
 
         40. id : attribute 
 
+        41. <a> : anchor element 
+            - An anchor element can be used to route users to an entirely different website. 
+                - EXAMPLE: The code below would route you to google.com
+                    <a href="https://google.com">Google It!</a>
 
-In index.html, add the following id attributes to the appropriate sections:
+        42. image file : JPGs PNGs
+            - made up of pixels.
 
+        43. SVG file : Scalable Vector Graphics
+            - series of points and lines ( the <path> elements you see in the XML) that are filled in with color. 
+                - SVG images can accomodate basically any screen size without losing quality because the graphics will scale.
+                    - This is what makes SVGs perfect for things like icons and logos. 
+                        EXAMPLE <img src="./name/name/name.svg" alt=" />
+                            - SVG images are decorative and used to add space and visual interest between text items. 
 
+        44. <img> : image element 
+            - This can display any image format. 
+                - ITS JUST CRITICALLY IMPORTANT THAT AN SRC POINTS TO A FILE THAT CAN BE FOUND.
 
+        45. Relative Path : start from a current directory
+            EXAMPLE : ../images/hero-bg.jpg
+
+        46. Absolute Path's : are fixed paths 
+            EXAMPLE : /Users/<username>/Desktop/run-buddy/assets/css/style.css
+
+        47. alt - attribute : explains the content and context of images to search engines and assistive technology such as screen readers. 
+
+        48. text-align : aligns text to a specific preferance. 
+            EXAMPLE: text-align: center;
+
+        49. border-bottom: ~ relating to the bottom border on the HTML page. 
+
+        50. inline-block : occupy as much space as their content needs. Which means that multiple inline elements can sit next to each other 
+
+        51. block elements: occupy 100% of their width of their parent, regardless of content size. 
+
+        52. auto: tells the browser to calculate the margins for us. 
+            - When the browser asked to do this on both sides of an element, it does it's best to make it even, thus pushing the element into the center.
+
+        53. float : 
+
+        54. Article : 
+
+        55. id : this gives user the ability to jump to different sections by clicking associated links in the navigation bar. 
+
+        56. Primary border: a different style option for a section title. 
+        
 
 
 TIP FOR THE CSS BOX MODEL:
@@ -241,3 +283,8 @@ TIP FOR THE CSS BOX MODEL:
     other HTML elements before and after it away. It also behaves like padding in the way its values are provided ( top, right, bottom and left.)
 
 
+Save / Saving progress with Git 
+
+git add -A
+git commit -m
+git push origin main 
