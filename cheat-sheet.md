@@ -2,9 +2,7 @@ Cheat Sheet - Directory of Helpful commands & tips for HTML Coding
 
 
 
-
 Prework Overview
-
 
 
 Module 0 - Welcome to the Course
