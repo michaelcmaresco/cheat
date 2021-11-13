@@ -328,6 +328,9 @@ Module 1 -
         - When entering "tel" as an input, it is treated like traditional "text". 
             - it wont be validated but on a browser, a numeric keyboard will pop up instead of a regular keyboard. 
 
+    78. <div class="name-of-file">
+        - the "name-of-file" is the class that is within this <div> container
+
 
 
 
@@ -574,4 +577,27 @@ Radio Button Input : How to add it to an HTML Page.
     </div>
 </section>
 
-1.3.4.1
+
+
+
+Saving Current work to Repository:
+
+    Linking the Local repository
+        1. 
+        
+        git remote add origin git@github.com:username/run-buddy.git
+
+        git remote -v
+
+        2.
+
+        git push origin main
+
+        3.
+
+        git add -A
+        git commit -m "<message-that-describes-the-commit>"
+        git push origin main
+
+
+1.3.4
